@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/container1"
+    android:background="@drawable/mario"
+    tools:context=".MainActivity">
+
+
+    <Button
+        android:id="@+id/Start"
+        android:layout_width="@dimen/_21sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="@dimen/_60sdp"
+        android:layout_marginTop="@dimen/_100sdp"
+        android:layout_marginEnd="@dimen/_60sdp"
+        android:backgroundTint="#FF0000"
+        android:fontFamily="@font/mouse_memoirs"
+        android:gravity="center"
+        android:text="@string/start"
+        android:textColorHint="#FFFFFF"
+        android:textSize="@dimen/_40ssp"
+        app:cornerRadius="@dimen/_100sdp"
+        app:icon="@android:drawable/ic_media_play"
+        tools:ignore="VisualLintButtonSize" />
+
+    <Button
+        android:id="@+id/Help"
+        android:layout_width="@dimen/_21sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="@dimen/_60sdp"
+        android:layout_marginTop="@dimen/_200sdp"
+        android:layout_marginEnd="@dimen/_60sdp"
+        android:backgroundTint="#FF0000"
+        android:fontFamily="@font/mouse_memoirs"
+        android:gravity="center"
+        android:text="@string/help"
+        android:textColorHint="#FFFFFF"
+        android:textSize="@dimen/_40ssp"
+        app:cornerRadius="@dimen/_100sdp"
+        app:icon="@android:drawable/ic_dialog_info"
+        tools:ignore="VisualLintButtonSize" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_150sdp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="@dimen/_80sdp"
+        android:layout_marginBottom="@dimen/_52sdp"
+        app:srcCompat="@drawable/frogjump" />
+
+</RelativeLayout>

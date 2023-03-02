@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/youwon"
+    tools:context=".loose">
+
+    <Button
+        android:id="@+id/restart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="@dimen/_100sdp"
+        android:layout_marginBottom="@dimen/_150sdp"
+        android:backgroundTint="#F60808"
+        android:fontFamily="@font/autour_one"
+
+        android:text="Restart"
+        app:icon="@android:drawable/ic_popup_sync" />
+
+    <Button
+        android:id="@+id/Exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="@dimen/_115sdp"
+        android:layout_marginBottom="@dimen/_80sdp"
+        android:backgroundTint="#DEF608"
+        android:fontFamily="@font/autour_one"
+
+        android:text="Exit"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        app:icon="@android:drawable/ic_delete"
+        app:iconTint="#000000" />
+
+
+</RelativeLayout>
